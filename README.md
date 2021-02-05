@@ -1,4 +1,4 @@
-# *** Lab # 2 Taller Keroku Calculadora
+# ***Lab # 2 Taller Keroku Calculadora***
 
 ## Comenzando
 
