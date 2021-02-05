@@ -1,4 +1,4 @@
-package edu.escuelaing.arem;
+package edu.escuelaing.arep;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -23,7 +23,7 @@ public class LecturaDocsherokuapp {
                 fr = new FileReader (archivo);
                 br = new BufferedReader(fr);
 
-                ListaEnlaza capturarDatos = new ListaEnlaza();
+                ListaEnlazaheroku capturarDatos = new ListaEnlazaheroku();
 
 
                 // Lectura del fichero
@@ -54,7 +54,7 @@ public class LecturaDocsherokuapp {
         return null;
     }
 
-    public ListaEnlaza readinList(Object read) {
+    public ListaEnlazaheroku readinList(Object read) {
         return null;
     }
 }

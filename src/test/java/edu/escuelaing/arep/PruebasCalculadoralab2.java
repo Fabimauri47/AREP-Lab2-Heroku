@@ -1,4 +1,4 @@
-package edu.escuelaing.arem;
+package edu.escuelaing.arep;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -11,7 +11,7 @@ import java.io.Reader;
  * Unit test for simple App.
  */
 public class PruebasCalculadoralab2{
-    private final CalculadoraOperaciones cal = new CalculadoraOperaciones();
+    private final CalculadoraOperacionesHeroku cal = new CalculadoraOperacionesHeroku();
     private final Reader rea = new Reader() {
         @Override
         public int read(char[] cbuf, int off, int len) throws IOException {
@@ -30,7 +30,7 @@ public class PruebasCalculadoralab2{
     public void AppFile1(){
         try{
             String[] args = {file1};
-            CalculadoraOperaciones.main(args);
+            CalculadoraOperacionesHeroku.main(args);
             assertTrue(true);
         }catch(Exception e){
             assertTrue(false);
@@ -44,7 +44,7 @@ public class PruebasCalculadoralab2{
     public void AppFile2(){
         try{
             String[] args = {file2};
-            CalculadoraOperaciones.main(args);
+            CalculadoraOperacionesHeroku.main(args);
             assertTrue(true);
         }catch(Exception e){
             assertTrue(false);

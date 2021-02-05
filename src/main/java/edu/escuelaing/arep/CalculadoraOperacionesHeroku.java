@@ -1,22 +1,22 @@
-package edu.escuelaing.arem;
+package edu.escuelaing.arep;
 
 public class CalculadoraOperacionesHeroku {
 
-    public static Double operate(ListaEnlaza l, Operaciones principal) {
+    public static Double operate(ListaEnlazaheroku l, Operaciones principal) {
         return null;
     }
 
     interface Operaciones {
-        Double operation(ListaEnlaza lis);
+        Double operation(ListaEnlazaheroku lis);
     }
 
     public static void main(String[] args) {
         if (args.length != 1) {
             System.out.println("incorrect arguments.");
         } else {
-            LecturaDocs r = new LecturaDocs();
+            LecturaDocsherokuapp r = new LecturaDocsherokuapp();
             CalculadoraOperacionesHeroku cal = new CalculadoraOperacionesHeroku();
-            ListaEnlaza l = r.readinList(r.read(args[0]));
+            ListaEnlazaheroku l = r.readinList(r.read(args[0]));
 
             /**
              * Calcula la media dada una lista de Doubles
@@ -37,7 +37,7 @@ public class CalculadoraOperacionesHeroku {
              * @param lis lista de Doubles
              * @return el valor de la desviación estandar como tipo Double
              */
-            Operaciones standarDes = (ListaEnlaza lis) ->
+            Operaciones standarDes = (ListaEnlazaheroku lis) ->
             {
                 Double sum = 0.0;
                 Double avr = CalculadoraOperacionesHeroku.operate(lis, principal);
