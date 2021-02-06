@@ -60,7 +60,8 @@ despliegue continuo con CircleCI.
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/generando%20documentacion.png)
    
  5. Para ver la aplicacion de la calculadora, de manera web, presione en el siguiente enlace:
-    -[Calculadora en Heroku](https://pure-bayou-45076.herokuapp.com/)
+ 
+        - [Calculadora en Heroku](https://pure-bayou-45076.herokuapp.com/)
 
 
 ## Corriendo Pruebas
