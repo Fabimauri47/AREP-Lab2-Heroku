@@ -2,20 +2,20 @@
 
 ## Comenzando
 
-La practica de este laboratorio 1 de arquitecturas empresariales tiene como fin poner en practica conceptos
-vistos en materias principales, con el fin de retomar el
-uso de Maven, JUnit, Java entre otros los cuales permitieron desarrollar el laboratorio de manera optima y
-sin ninguna novedad. Adem´as el uso de git para alojar
-las versiones del laboratorio y permitir el desarrollo del
-mismo en el lenguaje de programaci´on Java. Asi como
-la implementaci´on de una calculadora que permitiera
-operar la media y la desviaci´on est´andar de una lista de
-datos, utilizando la estructura de tipo LinkedList.
-El desarrollo de un programa en java, en donde
-se ingresaban las operaciones y ecuaciones necesarias
-para la implementaci´on de la misma calculadora. La
-practica se basa mas en el uso de Maven y GitHub para
-el desarrollo y finalizaci´on del mismo laboratorio 1.
+En este laboratorio 2 de introducci´on al dise˜no de sistemas inform´aticos, se procedi´o a desarrollar un programa que permitiera calcular dos operaciones: La
+desviaci´on est´andar y la media en un conjunto de
+n´umeros reales, proporcionados por el usuario. El programa lee n´umeros reales desde una p´agina web, en la
+cual tiene acceso el usuario, con el fin de que pueda
+hacer el c´alculo de sus operaciones correspondientes.
+
+Para realizar estos c´alculos correspondientes se
+necesit´o una estructura de datos de tipo ”Linked List”,
+con la aplicaci´on de Java, para que estas pudieran ser
+desplegadas. Se necesito adquirir el conocimiento para
+uso framework Spark, el cual es necesario para poder
+desarrollar la aplicaci´on. Realizar la validaci´on de un
+despliegue continuo con CircleCI.
+
 
 
 ### Prerequisitos
@@ -64,7 +64,7 @@ Para correr las pruebas, usamos el siguiente comando en una terminal CMD o en un
 
 - Para conocer mas el sobre el desarrollo del proyecto, descargue el proyecto como se explica arriba o revise el informe:
 
-    -[Presione Aqui para revisar documento](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Lab1I_NTRODUCTION_TO_COMPLEX_SYSTEMS.pdf)
+    -[Presione Aqui para revisar documento](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Lab2__INTRODUCTION_TO_COMPUTER_SYSTEM_DESIGN.pdf)
 
 ## Construido con
 
