@@ -21,14 +21,16 @@ despliegue continuo con CircleCI.
 ### Prerequisitos
 
 * [Java 8.0](https://www.java.com/es/) - Codificación
-* [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
+* [Spark](https://spark.apache.org/downloads.html) - Micro Framework para crear aplicaciones web en Java 8.0
 * [Maven](https://maven.apache.org/) - Manejo de Dependencias
+* [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
+* [Git](https://github.com/) - Control de Sistemas de veriones.
 
 ### Guia de Instalación
 
 1. Primero se dbe clonar el repositorio, con el siguiente comando descrito:
 
-    - git clone https://github.com/Fabimauri47/AREP-Lab1-Calculadora
+    - git clone https://github.com/Fabimauri47/AREP-Lab2-Heroku
     
     ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/clonar%20repositorio.png)
 
@@ -40,7 +42,8 @@ despliegue continuo con CircleCI.
 
 3. Ejecutamos el programa con el siguiente comando:
 
-   - mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.ASE.app.App"
+   - mvn exec:java -D "exec.mainClass"="edu.escuelaing.arem.designprimer.SparkWebApp"
+     In your browser: http://localhost:4567
    
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/ejecutar%20comando%203.png)
 
@@ -62,14 +65,14 @@ Para correr las pruebas, usamos el siguiente comando en una terminal CMD o en un
 
 ## Desarrollo
 
-- Para conocer mas el sobre el desarrollo del proyecto, descargue el proyecto como se explica arriba o revise el informe:
+- Para conocer mas sobre el desarrollo del proyecto, descargue el proyecto como se explica arriba o revise el informe:
 
     -[Presione Aqui para revisar documento](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Lab2__INTRODUCTION_TO_COMPUTER_SYSTEM_DESIGN.pdf)
 
 ## Construido con
 
 * [Java 8.0](https://www.java.com/es/) - Codificación
-* [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
+* [Spark](https://spark.apache.org/downloads.html) - Micro Framework para crear aplicaciones web en Java 8.0
 * [Maven](https://maven.apache.org/) - Manejo de Dependencias
 
 
