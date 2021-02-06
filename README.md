@@ -36,7 +36,7 @@ despliegue continuo con CircleCI.
 
 ### Guia de Instalación
 
-1. Primero se dbe clonar el repositorio, con el siguiente comando descrito:
+1. Primero se debe clonar el repositorio, con el siguiente comando descrito:
 
     - git clone https://github.com/Fabimauri47/AREP-Lab2-Heroku
     
