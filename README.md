@@ -9,7 +9,7 @@ cual tiene acceso el usuario, con el fin de que pueda
 hacer el c´alculo de sus operaciones correspondientes.
 
 Para realizar estos c´alculos correspondientes se
-necesit´o una estructura de datos de tipo ”Linked List”,
+necesito una estructura de datos de tipo ”Linked List”,
 con la aplicaci´on de Java, para que estas pudieran ser
 desplegadas. Se necesito adquirir el conocimiento para
 uso framework Spark, el cual es necesario para poder
