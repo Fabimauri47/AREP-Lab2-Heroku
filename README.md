@@ -40,26 +40,26 @@ despliegue continuo con CircleCI.
 
     - git clone https://github.com/Fabimauri47/AREP-Lab2-Heroku
     
-    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/clonar%20repositorio.png)
+    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Imagenes/Clonacion%20proyecto%20lab%202.png)
 
 2. Luego proceda abrir el cmd (Ventana de comandos) en donde tiene el repositorio alojado y ejecute el siguiente comando:
 
     - mvn package
     
-    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/comando%20mvn%20package.png)
+    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Imagenes/mvn%20package%20lab%202.png)
 
 3. Ejecutamos el programa con el siguiente comando:
 
    - mvn exec:java -D "exec.mainClass"="edu.escuelaing.arem.designprimer.SparkWebApp"
      In your browser: http://localhost:4567
    
-   ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/ejecutar%20comando%203.png)
+   ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Imagenes/comando%20mvn%20proyecto.png)
 
 4. Gereramos la documentación con el siguiente comando ejecutandolo desde consola:
 
    - mvn javadoc:javadoc
    
-   ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/generando%20documentacion.png)
+   ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Imagenes/mvn%20java%20doc%20lab%202.png)
    
  - Para ver la aplicacion de la calculadora, de manera web, presione en el siguiente enlace:
     - [Calculadora en Heroku](https://pure-bayou-45076.herokuapp.com/)
@@ -71,7 +71,7 @@ Para correr las pruebas, usamos el siguiente comando en una terminal CMD o en un
 
   * mvn test
 
-   ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/corrida%20pruebas.png)
+   ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Imagenes/corrida%20pruebas%20lab%202.png)
 
 
 ## Desarrollo e Informe
