@@ -29,7 +29,7 @@ despliegue continuo con CircleCI.
 
 ### Despliegue con Heroku App
 
-[![Deployed to Heroku](https://pure-bayou-45076.herokuapp.com/)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://pure-bayou-45076.herokuapp.com/)
 
 
 ### Integracion Continua con Circle CI
