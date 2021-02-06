@@ -2,33 +2,43 @@
 
 ## Comenzando
 
-La practica de este laboratorio 1 de arquitecturas empresariales tiene como fin poner en practica conceptos
-vistos en materias principales, con el fin de retomar el
-uso de Maven, JUnit, Java entre otros los cuales permitieron desarrollar el laboratorio de manera optima y
-sin ninguna novedad. Adem´as el uso de git para alojar
-las versiones del laboratorio y permitir el desarrollo del
-mismo en el lenguaje de programaci´on Java. Asi como
-la implementaci´on de una calculadora que permitiera
-operar la media y la desviaci´on est´andar de una lista de
-datos, utilizando la estructura de tipo LinkedList.
-El desarrollo de un programa en java, en donde
-se ingresaban las operaciones y ecuaciones necesarias
-para la implementaci´on de la misma calculadora. La
-practica se basa mas en el uso de Maven y GitHub para
-el desarrollo y finalizaci´on del mismo laboratorio 1.
+En este laboratorio 2 de introducci´on al dise˜no de sistemas inform´aticos, se procedi´o a desarrollar un programa que permitiera calcular dos operaciones: La
+desviaci´on est´andar y la media en un conjunto de
+n´umeros reales, proporcionados por el usuario. El programa lee n´umeros reales desde una p´agina web, en la
+cual tiene acceso el usuario, con el fin de que pueda
+hacer el c´alculo de sus operaciones correspondientes.
+
+Para realizar estos c´alculos correspondientes se
+necesito una estructura de datos de tipo ”Linked List”,
+con la aplicaci´on de Java, para que estas pudieran ser
+desplegadas. Se necesito adquirir el conocimiento para
+uso framework Spark, el cual es necesario para poder
+desarrollar la aplicaci´on. Realizar la validaci´on de un
+despliegue continuo con CircleCI.
 
 
-### Prerequisitos
+
+### Pre-Requisitos
 
 * [Java 8.0](https://www.java.com/es/) - Codificación
-* [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
+* [Spark](https://spark.apache.org/downloads.html) - Micro Framework para crear aplicaciones web en Java 8.0
 * [Maven](https://maven.apache.org/) - Manejo de Dependencias
+* [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
+* [Git](https://github.com/) - Control de Sistemas de veriones.
+
+
+### Despliegue con Heroku App
+
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://pure-bayou-45076.herokuapp.com/)
+
+
+### Integracion Continua con Circle CI
 
 ### Guia de Instalación
 
-1. Primero se dbe clonar el repositorio, con el siguiente comando descrito:
+1. Primero se debe clonar el repositorio, con el siguiente comando descrito:
 
-    - git clone https://github.com/Fabimauri47/AREP-Lab1-Calculadora
+    - git clone https://github.com/Fabimauri47/AREP-Lab2-Heroku
     
     ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/clonar%20repositorio.png)
 
@@ -40,15 +50,19 @@ el desarrollo y finalizaci´on del mismo laboratorio 1.
 
 3. Ejecutamos el programa con el siguiente comando:
 
-   - mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.ASE.app.App"
+   - mvn exec:java -D "exec.mainClass"="edu.escuelaing.arem.designprimer.SparkWebApp"
+     In your browser: http://localhost:4567
    
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/ejecutar%20comando%203.png)
 
-4. Gereramos la documentacion con el siguiente comando ejecutandolo desde consola:
+4. Gereramos la documentación con el siguiente comando ejecutandolo desde consola:
 
    - mvn javadoc:javadoc
    
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/generando%20documentacion.png)
+   
+ - Para ver la aplicacion de la calculadora, de manera web, presione en el siguiente enlace:
+    - [Calculadora en Heroku](https://pure-bayou-45076.herokuapp.com/)
 
 
 ## Corriendo Pruebas
@@ -60,16 +74,16 @@ Para correr las pruebas, usamos el siguiente comando en una terminal CMD o en un
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/corrida%20pruebas.png)
 
 
-## Desarrollo
+## Desarrollo e Informe
 
-- Para conocer mas el sobre el desarrollo del proyecto, descargue el proyecto como se explica arriba o revise el informe:
+- Para conocer mas sobre el desarrollo del proyecto, descargue el proyecto como se explica arriba o revise el informe:
 
-    -[Presione Aqui para revisar documento](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Lab1I_NTRODUCTION_TO_COMPLEX_SYSTEMS.pdf)
+    -[Presione Aqui para revisar documento](https://github.com/Fabimauri47/AREP-Lab2-Heroku/blob/main/Lab2__INTRODUCTION_TO_COMPUTER_SYSTEM_DESIGN.pdf)
 
 ## Construido con
 
 * [Java 8.0](https://www.java.com/es/) - Codificación
-* [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
+* [Spark](https://spark.apache.org/downloads.html) - Micro Framework para crear aplicaciones web en Java 8.0
 * [Maven](https://maven.apache.org/) - Manejo de Dependencias
 
 
