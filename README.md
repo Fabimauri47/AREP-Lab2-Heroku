@@ -18,13 +18,19 @@ despliegue continuo con CircleCI.
 
 
 
-### Prerequisitos
+### Pre-Requisitos
 
 * [Java 8.0](https://www.java.com/es/) - Codificación
 * [Spark](https://spark.apache.org/downloads.html) - Micro Framework para crear aplicaciones web en Java 8.0
 * [Maven](https://maven.apache.org/) - Manejo de Dependencias
 * [JUnit](https://junit.org/junit5/) - Pruebas de Unidad
 * [Git](https://github.com/) - Control de Sistemas de veriones.
+
+
+### Despliegue con Heroku App
+
+
+### Integracion Continua con Circle CI
 
 ### Guia de Instalación
 
@@ -47,11 +53,14 @@ despliegue continuo con CircleCI.
    
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/ejecutar%20comando%203.png)
 
-4. Gereramos la documentacion con el siguiente comando ejecutandolo desde consola:
+4. Gereramos la documentación con el siguiente comando ejecutandolo desde consola:
 
    - mvn javadoc:javadoc
    
    ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab1-Calculadora/blob/main/Imagenes/generando%20documentacion.png)
+   
+ 5. Para ver la aplicacion de la calculadora, de manera web, presione en el siguiente enlace:
+        -[Calculadora en Heroku](https://pure-bayou-45076.herokuapp.com/)
 
 
 ## Corriendo Pruebas
