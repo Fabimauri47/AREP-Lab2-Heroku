@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"edu.escuelaing.arep","l":"App"},{"p":"edu.escuelaing.arep","l":"CalculadoraOperacionesHeroku"},{"p":"edu.escuelaing.arep","l":"LecturaDocsherokuapp"},{"p":"edu.escuelaing.arep","l":"ListaEnlazaheroku"}]
