@@ -2,7 +2,7 @@
 
 ## Comenzando
 
-En este laboratorio 2 de introducci´on al dise˜no de sistemas inform´aticos, se procedi´o a desarrollar un programa que permitiera calcular dos operaciones: La
+En este laboratorio 2 de introducción al dise˜no de sistemas inform´aticos, se procedi´o a desarrollar un programa que permitiera calcular dos operaciones: La
 desviaci´on est´andar y la media en un conjunto de
 n´umeros reales, proporcionados por el usuario. El programa lee n´umeros reales desde una p´agina web, en la
 cual tiene acceso el usuario, con el fin de que pueda
